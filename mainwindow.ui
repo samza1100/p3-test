@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>500</height>
+    <width>960</width>
+    <height>540</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,8 +20,8 @@
    <widget class="QPushButton" name="goButton">
     <property name="geometry">
      <rect>
-      <x>650</x>
-      <y>230</y>
+      <x>750</x>
+      <y>220</y>
       <width>111</width>
       <height>101</height>
      </rect>
@@ -40,12 +40,12 @@ color: rgb(29, 185, 84);</string>
      <string>Go</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Song1">
+   <widget class="QLabel" name="TextS1">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>150</y>
-      <width>121</width>
+      <width>151</width>
       <height>61</height>
      </rect>
     </property>
@@ -64,10 +64,10 @@ background-color: rgba(255, 255, 255, 0);</string>
      <string>Song 1:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="song3">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>190</x>
       <y>330</y>
       <width>441</width>
       <height>71</height>
@@ -83,10 +83,10 @@ background-color: rgba(255, 255, 255, 0);</string>
      <string notr="true">background-color: rgb(179, 179, 179);</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="song2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>190</x>
       <y>240</y>
       <width>441</width>
       <height>71</height>
@@ -107,8 +107,8 @@ background-color: rgba(255, 255, 255, 0);</string>
      <rect>
       <x>30</x>
       <y>50</y>
-      <width>252</width>
-      <height>53</height>
+      <width>331</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="font">
@@ -126,12 +126,12 @@ background-color: rgba(255, 255, 255, 0);</string>
      <string>Pick 3 Songs</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Song3">
+   <widget class="QLabel" name="TextS3">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>330</y>
-      <width>121</width>
+      <width>151</width>
       <height>61</height>
      </rect>
     </property>
@@ -153,10 +153,10 @@ background-color: rgba(255, 255, 255, 0);</string>
      <string>Song 3:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="song1">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>190</x>
       <y>150</y>
       <width>441</width>
       <height>71</height>
@@ -172,12 +172,12 @@ background-color: rgba(255, 255, 255, 0);</string>
      <string notr="true">background-color: rgb(179, 179, 179);</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Song2">
+   <widget class="QLabel" name="TextS2">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>240</y>
-      <width>121</width>
+      <width>151</width>
       <height>61</height>
      </rect>
     </property>
@@ -202,7 +202,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>960</width>
      <height>25</height>
     </rect>
    </property>
