@@ -1,13 +1,13 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include <QApplication>
-
+#include "resultwin.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    connect(ui->goButton, SIGNAL(clicked()), this, SLOT(on_goButton_clicked()));
 }
 
 MainWindow::~MainWindow()
@@ -20,8 +20,10 @@ MainWindow::~MainWindow()
 void MainWindow::on_goButton_clicked()
 {
     this->hide();
-    resultWin resultwindows;
-    resultwindows.show();
+    auto resultWindow = new resultWin();
+    resultWindow->setAttribute(Qt::WA_DeleteOnClose);
+    resultWindow->show();
+
 
 }
 

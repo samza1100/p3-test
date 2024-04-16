@@ -1,6 +1,6 @@
 #include "resultwin.h"
 #include "ui_resultwin.h"
-#include <QApplication>
+
 
 resultWin::resultWin(QWidget *parent)
     : QWidget(parent)

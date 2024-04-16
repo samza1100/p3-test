@@ -4,7 +4,6 @@
 #include <QMainWindow>
 using namespace std;
 
-#include "resultwin.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
