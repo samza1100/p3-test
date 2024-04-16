@@ -2,6 +2,9 @@
 #define RESULTWIN_H
 
 #include <QWidget>
+#include "ui_resultwin.h"
+#include <QVBoxLayout>
+#include <QLabel>
 
 namespace Ui {
 class resultWin;
@@ -17,6 +20,7 @@ public:
 
 private:
     Ui::resultWin *ui;
+    void populateScrollAreas();
 };
 
 #endif // RESULTWIN_H

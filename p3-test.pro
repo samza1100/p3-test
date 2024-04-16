@@ -11,11 +11,13 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    resultwin.cpp
+    resultwin.cpp \
+    songentry.cpp
 
 HEADERS += \
     mainwindow.h \
-    resultwin.h
+    resultwin.h \
+    songentry.h
 
 FORMS += \
     mainwindow.ui \

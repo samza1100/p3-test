@@ -20,10 +20,12 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_goButton_clicked()
 {
-    /*if(ui->song1->text().trimmed().isEmpty() ||
-        ui->song2->text().trimmed().isEmpty() ||
-        ui->song3->text().trimmed().isEmpty())
-    {
+    /*QStringList songs;
+    songs << ui->song1->text().trimmed()
+          << ui->song2->text().trimmed()
+          << ui->song3->text().trimmed();
+
+    if (songs.contains("")) {
         // If any box is empty, show a message box to the user
         QMessageBox::warning(this,"Not Enough Songs", "Please Pick 3 Songs");
         return;
