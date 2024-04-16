@@ -20,15 +20,15 @@
    <widget class="QPushButton" name="goButton">
     <property name="geometry">
      <rect>
-      <x>750</x>
-      <y>220</y>
+      <x>760</x>
+      <y>280</y>
       <width>111</width>
       <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Corbel</family>
+      <family>Century Gothic</family>
       <pointsize>36</pointsize>
      </font>
     </property>
@@ -43,15 +43,15 @@ color: rgb(29, 185, 84);</string>
    <widget class="QLabel" name="TextS1">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>150</y>
+      <x>30</x>
+      <y>210</y>
       <width>151</width>
       <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Corbel</family>
+      <family>Century Gothic</family>
       <pointsize>28</pointsize>
       <bold>false</bold>
      </font>
@@ -67,15 +67,15 @@ background-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLineEdit" name="song3">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>330</y>
+      <x>200</x>
+      <y>390</y>
       <width>441</width>
       <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Comfortaa</family>
+      <family>Century Gothic</family>
       <pointsize>28</pointsize>
      </font>
     </property>
@@ -86,15 +86,15 @@ background-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLineEdit" name="song2">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>240</y>
+      <x>200</x>
+      <y>300</y>
       <width>441</width>
       <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Comfortaa</family>
+      <family>Century Gothic</family>
       <pointsize>28</pointsize>
      </font>
     </property>
@@ -102,19 +102,19 @@ background-color: rgba(255, 255, 255, 0);</string>
      <string notr="true">background-color: rgb(179, 179, 179);</string>
     </property>
    </widget>
-   <widget class="QLabel" name="mainLable">
+   <widget class="QLabel" name="Lable1">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>50</y>
-      <width>331</width>
+      <x>50</x>
+      <y>110</y>
+      <width>471</width>
       <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Corbel</family>
-      <pointsize>36</pointsize>
+      <family>Century Gothic</family>
+      <pointsize>28</pointsize>
       <bold>false</bold>
      </font>
     </property>
@@ -123,21 +123,21 @@ background-color: rgba(255, 255, 255, 0);</string>
 background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
-     <string>Pick 3 Songs</string>
+     <string>Please Pick 3 Songs</string>
     </property>
    </widget>
    <widget class="QLabel" name="TextS3">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>330</y>
+      <x>30</x>
+      <y>390</y>
       <width>151</width>
       <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Corbel</family>
+      <family>Century Gothic</family>
       <pointsize>28</pointsize>
       <bold>false</bold>
      </font>
@@ -156,15 +156,15 @@ background-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLineEdit" name="song1">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>150</y>
+      <x>200</x>
+      <y>210</y>
       <width>441</width>
       <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Comfortaa</family>
+      <family>Century Gothic</family>
       <pointsize>28</pointsize>
      </font>
     </property>
@@ -175,15 +175,15 @@ background-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLabel" name="TextS2">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>240</y>
+      <x>30</x>
+      <y>300</y>
       <width>151</width>
       <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Corbel</family>
+      <family>Century Gothic</family>
       <pointsize>28</pointsize>
       <bold>false</bold>
      </font>
@@ -196,6 +196,29 @@ background-color: rgba(255, 255, 255, 0);</string>
      <string>Song 2:</string>
     </property>
    </widget>
+   <widget class="QLabel" name="labelWel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>591</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Gothic</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(29, 185, 84);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Welcome to SpotiMatch</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -206,6 +229,12 @@ background-color: rgba(255, 255, 255, 0);</string>
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuSpotiMatch">
+    <property name="title">
+     <string>SpotiMatch</string>
+    </property>
+   </widget>
+   <addaction name="menuSpotiMatch"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
