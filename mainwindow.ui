@@ -61,10 +61,10 @@ color: rgb(29, 185, 84);</string>
 background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
-     <string>Song 1:</string>
+     <string>Artist 1:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="song3">
+   <widget class="QLineEdit" name="box3">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -83,7 +83,7 @@ background-color: rgba(255, 255, 255, 0);</string>
      <string notr="true">background-color: rgb(179, 179, 179);</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="song2">
+   <widget class="QLineEdit" name="box2">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -123,7 +123,7 @@ background-color: rgba(255, 255, 255, 0);</string>
 background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
-     <string>Please Pick 3 Songs</string>
+     <string>Please Choose 3 Artists</string>
     </property>
    </widget>
    <widget class="QLabel" name="TextS3">
@@ -150,10 +150,10 @@ background-color: rgba(255, 255, 255, 0);</string>
      <enum>QFrame::Plain</enum>
     </property>
     <property name="text">
-     <string>Song 3:</string>
+     <string>Artist  3:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="song1">
+   <widget class="QLineEdit" name="box1">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -193,7 +193,7 @@ background-color: rgba(255, 255, 255, 0);</string>
 background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
-     <string>Song 2:</string>
+     <string>Artist 2:</string>
     </property>
    </widget>
    <widget class="QLabel" name="labelWel">

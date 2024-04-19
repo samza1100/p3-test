@@ -25,7 +25,7 @@ void resultWin::populateScrollAreas() {
 
     // Example loop for top 500 songs
     // Create and add SongEntry widgets to the layout for the "Top 500" songs
-    for (int i = 0; i < 20; ++i) {
+    for (int i = 0; i < 10; ++i) {
         // Create a new SongEntry with placeholder text
         SongEntry *entry = new SongEntry("Placeholder Song " + QString::number(i),
                                          "Placeholder Artist " + QString::number(i),
@@ -40,7 +40,7 @@ void resultWin::populateScrollAreas() {
     QWidget *container2 = new QWidget();
     QVBoxLayout *layout2 = new QVBoxLayout(container2);
     // Example loop for random songs
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < 5; ++i) {
         SongEntry *entry = new SongEntry("Placeholder Song " + QString::number(i),
                                          "Placeholder Artist " + QString::number(i),
                                          container2);

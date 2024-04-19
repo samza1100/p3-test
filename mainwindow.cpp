@@ -20,14 +20,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_goButton_clicked()
 {
-    /*QStringList songs;
-    songs << ui->song1->text().trimmed()
-          << ui->song2->text().trimmed()
-          << ui->song3->text().trimmed();
+    /*QStringList artists;
+    artists << ui->box1->text().trimmed()
+          << ui->box2->text().trimmed()
+          << ui->box3->text().trimmed();
 
-    if (songs.contains("")) {
+    if (artists.contains("")) {
         // If any box is empty, show a message box to the user
-        QMessageBox::warning(this,"Not Enough Songs", "Please Pick 3 Songs");
+        QMessageBox::warning(this,"Not Enough Data", "Please Choose 3 Artists");
         return;
     }*/
 

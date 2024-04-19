@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <Qset>
 using namespace std;
 
 
@@ -25,5 +26,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    QSet<QString> genreSet;
 };
 #endif // MAINWINDOW_H
