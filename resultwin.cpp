@@ -2,6 +2,8 @@
 #include "ui_resultwin.h"
 #include "songentry.h"
 
+using namespace std;
+
 
 resultWin::resultWin(QWidget *parent)
     : QWidget(parent)
