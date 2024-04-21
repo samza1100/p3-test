@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QLabel>
 #include <QVBoxLayout>
+#include <map>
 
 class SongEntry : public QWidget {
     Q_OBJECT

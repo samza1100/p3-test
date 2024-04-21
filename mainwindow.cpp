@@ -20,7 +20,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_goButton_clicked()
 {
-    /*QStringList artists;
+    QStringList artists;
     artists << ui->box1->text().trimmed()
           << ui->box2->text().trimmed()
           << ui->box3->text().trimmed();
@@ -29,7 +29,7 @@ void MainWindow::on_goButton_clicked()
         // If any box is empty, show a message box to the user
         QMessageBox::warning(this,"Not Enough Data", "Please Choose 3 Artists");
         return;
-    }*/
+    }
 
     this->hide();
     auto resultWindow = new resultWin();
